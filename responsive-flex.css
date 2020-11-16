@@ -136,6 +136,14 @@ h1 {
 }
 
 @media (max-width: 500px) {
+  section{
+  margin: 1%;
+  padding: 1%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  }
+
   .image {
     display: flex;
     flex-direction: column;
@@ -143,7 +151,52 @@ h1 {
   }
 
   .all {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    margin:0;
+    height:50%;
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+  .myButton {
+    background-color:  rgba(255, 138, 106, 0.5);
+  }
+
+  .secondbox {
+    width: 100%;
+
+  }
+
+  .firstboxone  {
+    height: 200px;
+    width: 100%;
+    background-position:  center;
+    margin: 0px;
+    padding: 0;
+  }
+
+  .firstboxtwo {
+    height: 200px;
+    width: 100%;
+    background-position:  center;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+  p{
+    margin: 0;
+    height: 100%;
   }
 }

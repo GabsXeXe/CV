@@ -146,3 +146,51 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
+
+@media (max-width: 500px) {
+  .bigdiv {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3%;
+  }
+
+  #fat {
+    margin:3%;
+  }
+
+  .containerimage {
+    width: 50%;
+    height: 50%;
+    margin: 5%;
+  }
+
+  .skills {
+    margin: 0;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+  }
+
+  .allskills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .stars {
+    display: none;
+  }
+
+  .footerblock {
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+}

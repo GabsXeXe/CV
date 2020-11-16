@@ -59,8 +59,59 @@ body, html {
   background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
+@media (max-width: 500px) {
+
+
+  .parallax1 {
+    height: 50%;
+    width: 100vw;
     background-attachment: scroll;
+    background-position: center;
+    position: relative;
+  }
+
+  .parallax2 {
+    height: 50%;
+    width: 100vw;
+    background-attachment: scroll;
+    background-position: left;
+    position: relative;
+  }
+
+  .parallax3 {
+    height: 50%;
+    width: 100vw;
+    background-attachment: scroll;
+    background-position: center;
+    position: relative;
+  }
+
+  .parallax4 {
+    height: 50%;
+    width: 100vw;
+    background-attachment: scroll;
+    background-position: center;
+    position: relative;
+  }
+
+  .parallax5 {
+    height: 50%;
+    width: 100vw;
+    background-attachment: scroll;
+    background-position: center;
+    position: relative;
+  }
+
+
+
+  .text {
+    height: 30%;
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .texttext {
+    width: 100%;
+    text-align: center;
   }
 }
