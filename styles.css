@@ -1,11 +1,15 @@
+h1 {
+  margin: 0;
+  font-family: 'Satisfy', cursive;
+}
 
 body {
-    padding: 1% 2%;
-    background-color:#f1f1e8  ;
     color: #577d01;
     font-size: 110%;
     font-family: 'Grenze Gotisch', cursive;
     font-family: 'Nunito', sans-serif;
+    margin: 0;
+
 }
 
 
@@ -13,13 +17,19 @@ hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #bfdcae;
-  border-width: 5px;
+  border-width: 3.5px;
   width: 98%;
+}
+
+.line {
+  border: 1px solid  #bfdcae;
+  margin: 0;
+  width: 100vw;
 }
 
 #fat {
   color: #206a5d;
-  line-height: 120%;
+  line-height: 150%;
 }
 
 h3 {
@@ -39,13 +49,15 @@ img {
   padding: 30px;
 }
 
-img:hover {
+/*img:hover {
   opacity: 0.9;
   transition: opacity .5s;
-}
+}*/
 
 a {
-  color: #519872;
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
 }
 
 a:hover {
@@ -54,4 +66,83 @@ a:hover {
 
 .low {
   font-weight: lighter;
+}
+
+.bigdiv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 110%;
+  background-color:#f1f1e8  ;
+  margin: 0;
+
+}
+
+.containerimage {
+  padding: 10px;
+}
+
+.containerp {
+  margin: 0;
+
+}
+
+section {
+  padding: 1% 2%;
+  margin: 2em 0 2em 0;
+
+}
+
+.allskills {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin: auto auto 20px auto;
+}
+
+nav {
+  height: 3em;
+  color:  #bfdcae;
+  background-color:  #9ad3bc;
+}
+
+.container {
+  padding: 10px;
+}
+
+.space {
+  height: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.olcontainer {
+  margin: 0 auto;
+}
+
+.footerblock {
+  height: 3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+footer{
+  height: 3em;
+  background-color:  #68b0ab;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
