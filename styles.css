@@ -1,6 +1,7 @@
 h1 {
   margin: 0;
   font-family: 'Satisfy', cursive;
+  font-size: 4em;
 }
 
 body {
@@ -147,7 +148,7 @@ footer{
   justify-content: space-around;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1400px) {
   .bigdiv {
     height: 100%;
     box-sizing: border-box;
