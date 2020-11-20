@@ -85,7 +85,7 @@ p{
 
 .all {
   height: 50%;
-  width:100%;
+  width:50%;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
