@@ -135,7 +135,7 @@ h1 {
   background-size: cover;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1400px) {
   section{
   margin: 1%;
   padding: 1%;
